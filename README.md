@@ -6,8 +6,8 @@
 
 ### The languages or focus are:
 - Javascript
-- - React JS
-- - React Native
+    - React JS
+    - React Native
 
 - Python
 - - Django
