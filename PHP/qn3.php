@@ -35,9 +35,9 @@ function format_money($amount) {
 
 
 // Print formatted bill
-echo "========== Restaurant Bill ==========";
-echo "Item\t\tPrice\tQty\tTotal\r\n";
-echo "---------------------------------------\r\n";
+echo "========== Restaurant Bill ==========\n";
+echo "Item\t\tPrice\tQty\tTotal\n";
+echo "---------------------------------------\n";
 echo "Hamburger\t$" . format_money($hamburger_cost) . "\t" . $hamburger_quantity . "\t$" . format_money($subtotal_hamburgers) . "\n";
 echo "Milkshake\t$" . format_money($milkshake_cost) . "\t" . $milkshake_quantity . "\t$" . format_money($subtotal_milkshake) . "\n";
 echo "Cola\t\t$" . format_money($cola_cost) . "\t" . $cola_quantity . "\t$" . format_money($subtotal_cola) . "\n";
