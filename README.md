@@ -19,3 +19,8 @@ Here I will be focusing on the following:
 
 - [PHP](/PHP)
     - Laravel
+
+Research sources for pycon
+- https://github.com/pythonafrica/pycon-africa
+- https://github.com/CTPUG/wafer
+- https://github.com/djangocon
