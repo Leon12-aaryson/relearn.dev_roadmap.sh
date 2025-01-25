@@ -1,0 +1,21 @@
+<form method="POST" action="qn4.php">
+    From Address:<br>
+    <input type="text" name="from_street" placeholder="Street"><br>
+    <input type="text" name="from_city" placeholder="City"><br>
+    <input type="text" name="from_state" placeholder="State" pattern="[A-Z]{2}" title="Two letter state code"><br>
+    <input type="text" name="from_zip" placeholder="Zip Code" pattern="\d{5}(-\d{4})?" title="Valid Zip Code"><br>
+    
+    To Address:<br>
+    <input type="text" name="to_street" placeholder="Street"><br>
+    <input type="text" name="to_city" placeholder="City"><br>
+    <input type="text" name="to_state" placeholder="State" pattern="[A-Z]{2}" title="Two letter state code"><br>
+    <input type="text" name="to_zip" placeholder="Zip Code" pattern="\d{5}(-\d{4})?" title="Valid Zip Code"><br>
+
+    Package Details:<br>
+    Length (inches): <input type="number" name="length" max="36"><br>
+    Width (inches): <input type="number" name="width" max="36"><br>
+    Height (inches): <input type="number" name="height" max="36"><br>
+    Weight (pounds): <input type="number" name="weight" max="150"><br>
+
+    <input type="submit" value="Submit Package Details">
+</form>
